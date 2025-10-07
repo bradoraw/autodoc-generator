@@ -1,5 +1,6 @@
 import subprocess
 import yaml
+import os
 
 shots_file = "shots.yml"
 login_file = "login.yml"
@@ -13,6 +14,13 @@ subprocess.run(["shot-scraper", "auth", login[0]["url"], auth_file])
 
 with open(shots_file, "r") as f:
     shots = yaml.safe_load(f)
+
+if not os.path.exists("screenshots"):
+    os.makedirs("screenshots")
+
+# delete all files in the screenshots directory
+for file in os.listdir("screenshots"):
+    os.remove(os.path.join("screenshots", file))
 
 print(f"Capturing screenshots for {len(shots)} pages")
 for shot in shots:
