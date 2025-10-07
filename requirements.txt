@@ -1,0 +1,5 @@
+openai
+shot-scraper
+python-dotenv
+markdown
+weasyprint

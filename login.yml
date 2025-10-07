@@ -1,0 +1,2 @@
+- output: screenshots/login.png
+  url: http://localhost:3000/login

@@ -1,0 +1,12 @@
+- output: screenshots/dashboard.png
+  url: http://localhost:3000/admin/dashboard
+- output: screenshots/controllers.png
+  url: http://localhost:3000/admin/controllers
+- output: screenshots/users.png
+  url: http://localhost:3000/admin/users
+- output: screenshots/assets.png
+  url: http://localhost:3000/admin/assets
+- output: screenshots/system.png
+  url: http://localhost:3000/admin/system
+- output: screenshots/settings.png
+  url: http://localhost:3000/settings
