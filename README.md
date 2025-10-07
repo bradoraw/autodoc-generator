@@ -83,16 +83,16 @@ Run the complete workflow:
 ./autodoc.sh
 ```
 
-or 
-
-```bash
-python3 autodoc.py
-```
-
 This script will:
 1. Set up the virtual environment
 2. Install dependencies if needed
 3. Run the complete documentation generation process
+
+Or activate your environment and run this directly
+
+```bash
+python3 autodoc.py
+```
 
 ### Manual Execution
 
